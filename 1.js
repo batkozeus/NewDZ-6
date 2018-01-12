@@ -13,9 +13,9 @@ const keyTrainer = {
     	let symbolQuant;
     	do {
     		symbolQuant = prompt(`Введите количество символов`, `Количество символов`);
-    		if (symbolQuant == null) {
-    			break;
-    		}
+//     		if (symbolQuant == null) {
+//     			break;
+//     		}
     	}
     	while (
     		checkPositiveInteger(symbolQuant)
